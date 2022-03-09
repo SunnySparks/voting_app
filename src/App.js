@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ProductList from './components/Productlist';
 
-class ProductList extends React.Component {
-  render() {
-    return (
-      <div className='ui unstackable items'>
-        Hello, friend! I am a basic React component.
-      </div>
-); }
+function App() {
+  return (
+    <div className="App">
+      <ProductList />
+    </div>
+  );
 }
 
 export default App;
